@@ -1,4 +1,4 @@
-package binarygap;
+package binary_gap;
 
 /**
  * Solution for Codility lesson:
