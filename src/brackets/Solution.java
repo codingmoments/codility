@@ -3,6 +3,7 @@ package brackets;
 import java.util.Stack;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/
  * 
@@ -12,7 +13,8 @@ import java.util.Stack;
  * Traverse the characters in the String.
  * When you see the opening bracket, push that in the Stack.
  * When you see the closing bracket, check if stack has matching opening bracket.
- * At the end, stack should be empty. 
+ * At the end, stack should be empty.
+ * @formatter:on 
  */
 public class Solution {
 

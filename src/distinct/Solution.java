@@ -3,9 +3,14 @@ package distinct;
 import java.util.Arrays;
 
 /**
- * Solution for Codility lesson: https://app.codility.com/programmers/lessons/6-sorting/distinct/
+ * @formatter:off
+ * Solution for Codility lesson: 
+ * https://app.codility.com/programmers/lessons/6-sorting/distinct/
  * 
- * Idea: Sort the integer array. Traverse through the sorted array to count distinct values.
+ * Idea: 
+ * Sort the integer array. 
+ * Traverse through the sorted array to count distinct values.
+ * @formatter:on
  */
 public class Solution {
 

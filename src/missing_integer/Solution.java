@@ -1,6 +1,7 @@
 package missing_integer;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
  * 
@@ -9,6 +10,7 @@ package missing_integer;
  * Traverse given array and update existenceArray.
  * Check existenceArray for index with value 0.
  * That index is the missing integer.
+ * @formatter:on
  */
 public class Solution {
 

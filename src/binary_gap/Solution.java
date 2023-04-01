@@ -1,11 +1,13 @@
 package binary_gap;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
  * 
  * Idea: This is a straight solution where we traverse the digits in 
  * binary representations and count the number of 0s between two 1s.
+ * @formatter:on
  */
 public class Solution {
 

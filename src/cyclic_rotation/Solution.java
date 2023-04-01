@@ -1,6 +1,7 @@
 package cyclic_rotation;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
  * 
@@ -9,6 +10,7 @@ package cyclic_rotation;
  * K = K % A.length
  * 
  * And then we rotate the elements K number of times.
+ * @formatter:on
  */
 public class Solution {
 

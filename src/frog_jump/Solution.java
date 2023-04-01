@@ -1,6 +1,7 @@
 package frog_jump;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
  * 
@@ -10,6 +11,7 @@ package frog_jump;
  * This means:
  * N * D = Y - X
  * N = ( Y - X ) / D
+ * @formatter:on
  */
 public class Solution {
 

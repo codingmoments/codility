@@ -1,6 +1,7 @@
 package min_avg_two_slice;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/5-prefix_sums/min_avg_two_slice/
  * 
@@ -8,6 +9,7 @@ package min_avg_two_slice;
  * There is a theorem that states that: AVG[0]...A[N] cannot be less than AVG[0]...A[k] and AVG[k+1]...A[N].
  * A composed slice will never have an average sum lower than its components.
  * So, just look for slice with 2 or 3 elements having minimum average.
+ * @formatter:on
  */
 public class Solution {
 

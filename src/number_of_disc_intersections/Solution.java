@@ -1,6 +1,7 @@
 package number_of_disc_intersections;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/6-sorting/number_of_disc_intersections/
  * 
@@ -10,6 +11,7 @@ package number_of_disc_intersections;
  * Then, start counting intersections. 
  * It is same as passing cars.
  * If the start position of a disk is started, and we come across another start position, that means two discs are intersecting.
+ * @formatter:on
  */
 public class Solution {
 

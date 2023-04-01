@@ -3,6 +3,7 @@ package triangle;
 import java.util.Arrays;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/6-sorting/triangle/
  * 
@@ -27,6 +28,7 @@ import java.util.Arrays;
  * 
  * Hence, to improve performance and to get time complexity of O(1), we just compare: A[i] > A[i + 2] - A[i + 1]
  * To keep program simple, we traverse from first element towards right.
+ * @formatter:on
  */
 public class Solution {
 

@@ -1,6 +1,7 @@
 package passing_cars;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/
  * 
@@ -8,6 +9,7 @@ package passing_cars;
  * Use two counters.
  * One counter to store the number of cars passing east.
  * The other counter to store the number of times the cars passing east cross the a car passing west.
+ * @formatter:on
  */
 public class Solution {
 

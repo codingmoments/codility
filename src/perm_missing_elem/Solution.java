@@ -4,6 +4,7 @@ import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/
  * 
@@ -12,6 +13,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * The expected sum of consecutive numbers from 1 to N is N(N+1)/2.
  * Find the difference between the actual sum and expected sum.
  * Missing number = array length + 1 - difference between sums.
+ * @formatter:on
  */
 public class Solution {
 

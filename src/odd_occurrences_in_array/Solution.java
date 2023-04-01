@@ -3,11 +3,13 @@ package odd_occurrences_in_array;
 import java.util.Arrays;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
  * 
  * Idea: Simple. Sort the given array. Traverse the array, count the repetitions 
  * and stop as soon as you find an element which is repeated odd number of times.
+ * @formatter:on
  */
 public class Solution {
 

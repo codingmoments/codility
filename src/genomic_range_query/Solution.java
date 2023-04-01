@@ -3,6 +3,7 @@ package genomic_range_query;
 import java.util.Arrays;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/
  * 
@@ -24,6 +25,7 @@ import java.util.Arrays;
  * presenceA[p]..presenceA[q + 1]
  * 
  * This way, we are going one index before in order to check presence of A from real index p.
+ * @formatter:on
  */
 public class Solution {
 

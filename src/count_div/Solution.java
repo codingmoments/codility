@@ -1,6 +1,7 @@
 package count_div;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/
  * 
@@ -8,6 +9,7 @@ package count_div;
  * Find the first integer >= A that is divisible by K.
  * Find the difference between firstDivisible and B.
  * The number of integers divisible by K = (difference / K) + 1
+ * @formatter:on
  */
 public class Solution {
 

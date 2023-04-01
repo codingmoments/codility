@@ -1,6 +1,7 @@
 package tape_equilibrium;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
  * 
@@ -10,6 +11,7 @@ package tape_equilibrium;
  * In every iteration, calculate the sum of left side of the array.
  * Sum of the right side of the array will be total sum - left side sum.
  * Keep track of minimum difference between LHS and RHS.
+ * @formatter:on
  */
 public class Solution {
 

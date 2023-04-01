@@ -1,6 +1,7 @@
 package frog_river_one;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
  * 
@@ -9,7 +10,8 @@ package frog_river_one;
  * In that array, we maintain the existence of a leave for a given step i.e. index.
  * 
  * As soon as, we get all the leaves at all the indexes (steps), that time is the minimum time
- * required for the frog to cross the river.  
+ * required for the frog to cross the river.
+ * @formatter:on  
  */
 public class Solution {
 

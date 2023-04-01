@@ -3,6 +3,7 @@ package fish;
 import java.util.Stack;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/7-stacks_and_queues/fish/
  * 
@@ -18,6 +19,7 @@ import java.util.Stack;
  * till it gets eaten by a larger fish flowing upstream or the previous fish is flowing downstream.
  * 
  * At the end, the number of fishes in the Stack are the live fishes.
+ * @formatter:on
  */
 public class Solution {
 

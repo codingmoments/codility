@@ -1,6 +1,7 @@
 package max_counters;
 
 /**
+ * @formatter:off
  * Solution for Codility lesson:
  * https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/
  * 
@@ -11,6 +12,7 @@ package max_counters;
  * And we maintain that maximum value by keeping it adding into a base value.
  * 
  * At the end, we just add this base value to all counters.
+ * @formatter:on
  */
 public class Solution {
 
