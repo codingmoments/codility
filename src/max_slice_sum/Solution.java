@@ -17,9 +17,9 @@ public class Solution {
     int maxEnding = A[0];
 
     for (int i = 1; i < A.length; i++) {
-      // If we assume that the maximum sum of a slice ending in position i equals maxEnding, 
-      // then the maximum slice ending in position [i+1] equals maxEnding + A[i + 1].
-      // But if this result is less than the value at A[i + 1], then maxEnding becomes A[i].
+      // If we assume that the maximum sum of a slice ending at index i equals maxEnding, 
+      // then the maximum slice ending at index [i+1] equals maxEnding + A[i + 1].
+      // But, if this result is less than the value A[i + 1], which happens when previous maxEnding is negative, then new maxEnding becomes A[i].
       maxEnding = Math.max(maxEnding + A[i], A[i]);
 
       // Maximum slice sum so far is maximum of slice sums at all indices
