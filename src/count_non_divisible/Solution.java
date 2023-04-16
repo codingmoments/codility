@@ -48,6 +48,10 @@ package count_non_divisible;
  * - Then, to generate the final result, we create an array 'finalResult'
  * - For each element in array A, we populate the corresponding element in 'finalResult' 
  *   using the values from 'nonDivisorsCountPerCounterArray'.
+ *   
+ * Note: There are ways to further optimize the program, 
+ * such as there is no real need to have and maintain the array 'divisorsCountPerCounterArray'
+ * and WHILE loop at line 90 does not need to process each divisorIndex. Here we can apply the sieve logic for optimization.
  * 
  * @formatter:on
  */
