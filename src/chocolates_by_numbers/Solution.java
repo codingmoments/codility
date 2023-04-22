@@ -38,7 +38,7 @@ package chocolates_by_numbers;
 public class Solution {
 
   public int solution(int N, int M) {
-    return (int) lcm(N, M) / M;
+    return (int) (lcm(N, M) / M);
   }
 
   private long lcm(int N, int M) {
