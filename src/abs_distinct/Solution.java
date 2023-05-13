@@ -17,7 +17,8 @@ package abs_distinct;
  * If the tail element is larger than the head element, we decrement the tail element.
  * If both are same, we move both the pointers.
  * 
- * In addition to this, if the consecutive elements are same, then we keep moving the pointers.
+ * In addition to this, if the consecutive elements are same, 
+ * then we keep moving the pointers.
  * 
  * @formatter:on
  */
